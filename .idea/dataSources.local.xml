@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="DB" uuid="d61501ee-75ec-496b-92e1-aa76de3e2571">
+      <database-info product="Apache Derby" version="10.13.1.1 - (Unversioned directory)" jdbc-version="4.2" driver-name="Apache Derby Embedded JDBC Driver" driver-version="10.13.1.1 - (Unversioned directory)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <introspection-schemas>*:APP</introspection-schemas>
+    </data-source>
+  </component>
+</project>
