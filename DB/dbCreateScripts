@@ -1,0 +1,8 @@
+CREATE TABLE Events (
+  EventID INT GENERATED ALWAYS AS IDENTITY NOT NULL PRIMARY KEY,
+  EventName CHAR(100),
+  Date CHAR(10),
+  StartTime CHAR(50),
+  EndTime CHAR(50),
+  Description CHAR(200)
+);

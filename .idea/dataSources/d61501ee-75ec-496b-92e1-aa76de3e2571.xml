@@ -16,5 +16,38 @@
     <schema id="10" parent="1" name="SYSIBM"/>
     <schema id="11" parent="1" name="SYSPROC"/>
     <schema id="12" parent="1" name="SYSSTAT"/>
+    <table id="13" parent="2" name="EVENTS"/>
+    <column id="14" parent="13" name="EVENTID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
+    </column>
+    <column id="15" parent="13" name="EVENTNAME">
+      <Position>2</Position>
+      <DataType>CHAR(100)|1</DataType>
+    </column>
+    <column id="16" parent="13" name="DATE">
+      <Position>3</Position>
+      <DataType>CHAR(10)|1</DataType>
+    </column>
+    <column id="17" parent="13" name="STARTTIME">
+      <Position>4</Position>
+      <DataType>CHAR(50)|1</DataType>
+    </column>
+    <column id="18" parent="13" name="ENDTIME">
+      <Position>5</Position>
+      <DataType>CHAR(50)|1</DataType>
+    </column>
+    <column id="19" parent="13" name="DESCRIPTION">
+      <Position>6</Position>
+      <DataType>CHAR(200)|1</DataType>
+    </column>
+    <key id="20" parent="13" name="SQL181103231809820">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>EVENTID</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>
