@@ -7,41 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55d971d-b5ab-4775-93f2-6335dc8be868" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DB/dbCreateScripts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/EventDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/EventDaoImp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Models/Event.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/testDB.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d61501ee-75ec-496b-92e1-aa76de3e2571.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/d61501ee-75ec-496b-92e1-aa76de3e2571.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ItenProject_javaEEApplication_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/FinalProjectOne_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/META-INF/application.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/AddEvent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/DeleteEvent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/LogInAdmin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Models/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/adminControlPanel.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/logIn.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/schedule.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/DB/db.lck" afterPath="$PROJECT_DIR$/DB/db.lck" />
       <change beforePath="$PROJECT_DIR$/DB/log/log.ctrl" afterPath="$PROJECT_DIR$/DB/log/log.ctrl" />
       <change beforePath="$PROJECT_DIR$/DB/log/log1.dat" afterPath="$PROJECT_DIR$/DB/log/log1.dat" />
       <change beforePath="$PROJECT_DIR$/DB/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/DB/log/logmirror.ctrl" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c101.dat" afterPath="$PROJECT_DIR$/DB/seg0/c101.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c111.dat" afterPath="$PROJECT_DIR$/DB/seg0/c111.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c121.dat" afterPath="$PROJECT_DIR$/DB/seg0/c121.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c130.dat" afterPath="$PROJECT_DIR$/DB/seg0/c130.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c141.dat" afterPath="$PROJECT_DIR$/DB/seg0/c141.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c150.dat" afterPath="$PROJECT_DIR$/DB/seg0/c150.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c161.dat" afterPath="$PROJECT_DIR$/DB/seg0/c161.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c171.dat" afterPath="$PROJECT_DIR$/DB/seg0/c171.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c20.dat" afterPath="$PROJECT_DIR$/DB/seg0/c20.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c230.dat" afterPath="$PROJECT_DIR$/DB/seg0/c230.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c31.dat" afterPath="$PROJECT_DIR$/DB/seg0/c31.dat" />
       <change beforePath="$PROJECT_DIR$/DB/seg0/c400.dat" afterPath="$PROJECT_DIR$/DB/seg0/c400.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c41.dat" afterPath="$PROJECT_DIR$/DB/seg0/c41.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c411.dat" afterPath="$PROJECT_DIR$/DB/seg0/c411.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c421.dat" afterPath="$PROJECT_DIR$/DB/seg0/c421.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c51.dat" afterPath="$PROJECT_DIR$/DB/seg0/c51.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c60.dat" afterPath="$PROJECT_DIR$/DB/seg0/c60.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c71.dat" afterPath="$PROJECT_DIR$/DB/seg0/c71.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c81.dat" afterPath="$PROJECT_DIR$/DB/seg0/c81.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c90.dat" afterPath="$PROJECT_DIR$/DB/seg0/c90.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/ca1.dat" afterPath="$PROJECT_DIR$/DB/seg0/ca1.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/cb1.dat" afterPath="$PROJECT_DIR$/DB/seg0/cb1.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/cf0.dat" afterPath="$PROJECT_DIR$/DB/seg0/cf0.dat" />
+      <change beforePath="$PROJECT_DIR$/DB/seg0/c4b0.dat" afterPath="$PROJECT_DIR$/DB/seg0/c4b0.dat" />
+      <change beforePath="$PROJECT_DIR$/DB/seg0/c4c1.dat" afterPath="$PROJECT_DIR$/DB/seg0/c4c1.dat" />
+      <change beforePath="$PROJECT_DIR$/ItenProject.iml" afterPath="$PROJECT_DIR$/ItenProject.iml" />
+      <change beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/production/ItenProject/DAO/EventDaoImp.class" afterPath="$PROJECT_DIR$/out/production/ItenProject/DAO/EventDaoImp.class" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/EventDaoImp.java" afterPath="$PROJECT_DIR$/src/DAO/EventDaoImp.java" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,69 +51,18 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="DB" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="DB" type="feb32156:DbDataSourceImpl" />
-        <item name="APP: schema" type="6aa84934:DerbyImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="DB" type="feb32156:DbDataSourceImpl" />
-        <item name="APP: schema" type="6aa84934:DerbyImplModel$Schema" />
-        <item name="EVENTS: table" type="3b012a07:DerbyImplModel$Table" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.54969215">
+    <splitter split-orientation="horizontal" split-proportion="0.46264675">
       <split-first>
-        <leaf>
-          <file leaf-file-name="EventDaoImp.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/DAO/EventDaoImp.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
-                  <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <marker date="1541287715619" expanded="true" signature="855:875" ph="SELECT * FRO... EVENTS" />
-                    <marker date="1541287715619" expanded="true" signature="1919:1932" ph="UPDATE EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="1919:1968" ph="UPDATE EVENTSSet... " />
-                    <marker date="1541287715619" expanded="true" signature="1919:2013" ph="UPDATE EVENTSSet... " />
-                    <marker date="1541287715619" expanded="true" signature="1919:2025" ph="UPDATE EVENTSSet... " />
-                    <marker date="1541287715619" expanded="true" signature="1919:2051" ph="UPDATE EVENTSSet... " />
-                    <marker date="1541287715619" expanded="true" signature="1919:2074" ph="UPDATE EVENTSSet... " />
-                    <marker date="1541287715619" expanded="true" signature="1919:2085" ph="UPDATE EVENTSSet... " />
-                    <marker date="1541287715619" expanded="true" signature="1919:2147" ph="UPDATE EVENTSSet... " />
-                    <marker date="1541287715619" expanded="true" signature="1919:2216" ph="UPDATE EVENTSSet... " />
-                    <marker date="1541287715619" expanded="true" signature="1919:2280" ph="UPDATE EVENTSSet... " />
-                    <marker date="1541287715619" expanded="true" signature="2711:2745" ph="DELETE FROM EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="2711:2746" ph="DELETE FROM EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="3233:3269" ph="INSERT INTO EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="3233:3367" ph="INSERT INTO EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="3233:3392" ph="INSERT INTO EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="3233:3426" ph="INSERT INTO EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="3233:3456" ph="INSERT INTO EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="3233:3490" ph="INSERT INTO EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="3233:3518" ph="INSERT INTO EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="3233:3552" ph="INSERT INTO EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="3233:3588" ph="INSERT INTO EVENTS... " />
-                    <marker date="1541287715619" expanded="true" signature="3233:3589" ph="INSERT INTO EVENTS... " />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="testDB.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/testDB.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -130,11 +70,34 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="console_1.sql" pinned="false" current-in-tab="true">
-            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d61501ee-75ec-496b-92e1-aa76de3e2571/console_1.sql">
+          <file leaf-file-name="adminControlPanel.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/adminControlPanel.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
+                <state relative-caret-position="690">
+                  <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DeleteEvent.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Controllers/DeleteEvent.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="570">
+                  <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <marker date="1541373953228" expanded="true" signature="1053:1138" ph="SELECT * FRO... EVENTS" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+            <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1650">
+                  <caret line="381" column="29" lean-forward="false" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -143,11 +106,23 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="Event.java" pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="LogInAdmin.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Controllers/LogInAdmin.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Models/Event.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
+                <state relative-caret-position="98">
                   <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
                   <folding>
                     <element signature="e#273#274#0" expanded="true" />
@@ -178,11 +153,121 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="logIn.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/logIn.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="schedule.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/schedule.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Models/User.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#329#330#0" expanded="true" />
+                    <element signature="e#360#361#0" expanded="true" />
+                    <element signature="e#408#409#0" expanded="true" />
+                    <element signature="e#448#449#0" expanded="true" />
+                    <element signature="e#483#484#0" expanded="true" />
+                    <element signature="e#514#515#0" expanded="true" />
+                    <element signature="e#562#563#0" expanded="true" />
+                    <element signature="e#602#603#0" expanded="true" />
+                    <element signature="e#786#787#0" expanded="true" />
+                    <element signature="e#816#817#0" expanded="true" />
+                    <element signature="e#859#860#0" expanded="true" />
+                    <element signature="e#890#891#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="dbCreateScripts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/DB/dbCreateScripts">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
                   <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="EventDaoImp.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/DAO/EventDaoImp.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="309">
+                  <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <marker date="1541372718742" expanded="true" signature="901:921" ph="SELECT * FRO... EVENTS" />
+                    <marker date="1541372718742" expanded="true" signature="1965:1978" ph="UPDATE EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="1965:2014" ph="UPDATE EVENTSSet... " />
+                    <marker date="1541372718742" expanded="true" signature="1965:2059" ph="UPDATE EVENTSSet... " />
+                    <marker date="1541372718742" expanded="true" signature="1965:2071" ph="UPDATE EVENTSSet... " />
+                    <marker date="1541372718742" expanded="true" signature="1965:2097" ph="UPDATE EVENTSSet... " />
+                    <marker date="1541372718742" expanded="true" signature="1965:2120" ph="UPDATE EVENTSSet... " />
+                    <marker date="1541372718742" expanded="true" signature="1965:2131" ph="UPDATE EVENTSSet... " />
+                    <marker date="1541372718742" expanded="true" signature="1965:2193" ph="UPDATE EVENTSSet... " />
+                    <marker date="1541372718742" expanded="true" signature="1965:2262" ph="UPDATE EVENTSSet... " />
+                    <marker date="1541372718742" expanded="true" signature="1965:2326" ph="UPDATE EVENTSSet... " />
+                    <marker date="1541372718742" expanded="true" signature="2757:2791" ph="DELETE FROM EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="2757:2792" ph="DELETE FROM EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="3279:3315" ph="INSERT INTO EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="3279:3413" ph="INSERT INTO EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="3279:3438" ph="INSERT INTO EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="3279:3472" ph="INSERT INTO EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="3279:3502" ph="INSERT INTO EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="3279:3536" ph="INSERT INTO EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="3279:3564" ph="INSERT INTO EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="3279:3598" ph="INSERT INTO EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="3279:3634" ph="INSERT INTO EVENTS... " />
+                    <marker date="1541372718742" expanded="true" signature="3279:3635" ph="INSERT INTO EVENTS... " />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddEvent.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Controllers/AddEvent.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="console_1.sql" pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d61501ee-75ec-496b-92e1-aa76de3e2571/console_1.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -195,6 +280,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -214,9 +300,18 @@
         <option value="$PROJECT_DIR$/src/Models/Event.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d61501ee-75ec-496b-92e1-aa76de3e2571/console.sql" />
         <option value="$PROJECT_DIR$/DB/dbCreateScripts" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d61501ee-75ec-496b-92e1-aa76de3e2571/console_1.sql" />
-        <option value="$PROJECT_DIR$/src/DAO/EventDaoImp.java" />
         <option value="$PROJECT_DIR$/src/testDB.java" />
+        <option value="$PROJECT_DIR$/src/Models/User.java" />
+        <option value="$PROJECT_DIR$/web/schedule.jsp" />
+        <option value="$PROJECT_DIR$/web/logIn.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/Controllers/LogInAdmin.java" />
+        <option value="$PROJECT_DIR$/src/Controllers/AddEvent.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/adminControlPanel.jsp" />
+        <option value="$PROJECT_DIR$/src/DAO/EventDaoImp.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d61501ee-75ec-496b-92e1-aa76de3e2571/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/Controllers/DeleteEvent.java" />
       </list>
     </option>
   </component>
@@ -254,8 +349,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -267,17 +362,36 @@
             <path>
               <item name="ItenProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ItenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="DB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ItenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ItenProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ItenProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ItenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ItenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ItenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ItenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ItenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ItenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ItenProject" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ItenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ItenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -287,10 +401,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../glassfish5/javadb/lib/derbytools.jar!/" />
+    <property name="project.structure.side.proportion" value="0.3421659" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RockDB" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Derby (Embedded)" />
@@ -310,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.testDB">
+  <component name="RunManager" selected="GlassFish Server.ItenServer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -332,7 +446,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="testDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="testDB" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="testDB" />
       <option name="VM_PARAMETERS" />
@@ -484,11 +598,6 @@
       <item index="0" class="java.lang.String" itemvalue="GlassFish Server.ItenServer" />
       <item index="1" class="java.lang.String" itemvalue="Application.testDB" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.testDB" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -503,44 +612,77 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541282499411</updated>
-      <workItem from="1541282500949" duration="5314000" />
+      <workItem from="1541282500949" duration="5488000" />
+      <workItem from="1541362653690" duration="11298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5314000" />
+    <option name="totallyTimeSpent" value="16786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30793318" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10458911" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14354323" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26093918" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14354323" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30793318" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10458911" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -563,8 +705,14 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controllers/DeleteEvent.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -573,15 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,6 +734,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="90" lean-forward="false" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/AddEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DB/dbCreateScripts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -603,9 +770,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/schedule.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/logIn.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="98">
           <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="e#273#274#0" expanded="true" />
@@ -635,54 +847,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/EventDaoImp.java">
+    <entry file="file://$PROJECT_DIR$/src/Controllers/LogInAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1541287715619" expanded="true" signature="855:875" ph="SELECT * FRO... EVENTS" />
-            <marker date="1541287715619" expanded="true" signature="1919:1932" ph="UPDATE EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="1919:1968" ph="UPDATE EVENTSSet... " />
-            <marker date="1541287715619" expanded="true" signature="1919:2013" ph="UPDATE EVENTSSet... " />
-            <marker date="1541287715619" expanded="true" signature="1919:2025" ph="UPDATE EVENTSSet... " />
-            <marker date="1541287715619" expanded="true" signature="1919:2051" ph="UPDATE EVENTSSet... " />
-            <marker date="1541287715619" expanded="true" signature="1919:2074" ph="UPDATE EVENTSSet... " />
-            <marker date="1541287715619" expanded="true" signature="1919:2085" ph="UPDATE EVENTSSet... " />
-            <marker date="1541287715619" expanded="true" signature="1919:2147" ph="UPDATE EVENTSSet... " />
-            <marker date="1541287715619" expanded="true" signature="1919:2216" ph="UPDATE EVENTSSet... " />
-            <marker date="1541287715619" expanded="true" signature="1919:2280" ph="UPDATE EVENTSSet... " />
-            <marker date="1541287715619" expanded="true" signature="2711:2745" ph="DELETE FROM EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="2711:2746" ph="DELETE FROM EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="3233:3269" ph="INSERT INTO EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="3233:3367" ph="INSERT INTO EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="3233:3392" ph="INSERT INTO EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="3233:3426" ph="INSERT INTO EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="3233:3456" ph="INSERT INTO EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="3233:3490" ph="INSERT INTO EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="3233:3518" ph="INSERT INTO EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="3233:3552" ph="INSERT INTO EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="3233:3588" ph="INSERT INTO EVENTS... " />
-            <marker date="1541287715619" expanded="true" signature="3233:3589" ph="INSERT INTO EVENTS... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testDB.java">
+    <entry file="file://$PROJECT_DIR$/web/adminControlPanel.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="690">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650">
+          <caret line="381" column="29" lean-forward="false" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/DeleteEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1541373953228" expanded="true" signature="1053:1138" ph="SELECT * FRO... EVENTS" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d61501ee-75ec-496b-92e1-aa76de3e2571/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/EventDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1541372718742" expanded="true" signature="901:921" ph="SELECT * FRO... EVENTS" />
+            <marker date="1541372718742" expanded="true" signature="1965:1978" ph="UPDATE EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="1965:2014" ph="UPDATE EVENTSSet... " />
+            <marker date="1541372718742" expanded="true" signature="1965:2059" ph="UPDATE EVENTSSet... " />
+            <marker date="1541372718742" expanded="true" signature="1965:2071" ph="UPDATE EVENTSSet... " />
+            <marker date="1541372718742" expanded="true" signature="1965:2097" ph="UPDATE EVENTSSet... " />
+            <marker date="1541372718742" expanded="true" signature="1965:2120" ph="UPDATE EVENTSSet... " />
+            <marker date="1541372718742" expanded="true" signature="1965:2131" ph="UPDATE EVENTSSet... " />
+            <marker date="1541372718742" expanded="true" signature="1965:2193" ph="UPDATE EVENTSSet... " />
+            <marker date="1541372718742" expanded="true" signature="1965:2262" ph="UPDATE EVENTSSet... " />
+            <marker date="1541372718742" expanded="true" signature="1965:2326" ph="UPDATE EVENTSSet... " />
+            <marker date="1541372718742" expanded="true" signature="2757:2791" ph="DELETE FROM EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="2757:2792" ph="DELETE FROM EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="3279:3315" ph="INSERT INTO EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="3279:3413" ph="INSERT INTO EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="3279:3438" ph="INSERT INTO EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="3279:3472" ph="INSERT INTO EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="3279:3502" ph="INSERT INTO EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="3279:3536" ph="INSERT INTO EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="3279:3564" ph="INSERT INTO EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="3279:3598" ph="INSERT INTO EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="3279:3634" ph="INSERT INTO EVENTS... " />
+            <marker date="1541372718742" expanded="true" signature="3279:3635" ph="INSERT INTO EVENTS... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -696,7 +935,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3421659" />
                 <option value="0.5" />
               </list>
             </option>
@@ -705,11 +944,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web2 (ItenProject)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3421659" />
               </list>
             </option>
           </splitter-proportions>
@@ -720,7 +959,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3421659" />
               </list>
             </option>
           </splitter-proportions>
@@ -732,7 +971,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3421659" />
               </list>
             </option>
           </splitter-proportions>
@@ -740,12 +979,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ItenProject</last-edited>
+          <last-edited>javaEEApplication|ItenProject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.3421659" />
               </list>
             </option>
           </splitter-proportions>
@@ -769,7 +1007,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3421659" />
               </list>
             </option>
           </splitter-proportions>

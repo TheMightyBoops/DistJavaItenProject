@@ -8,7 +8,7 @@ import java.util.List;
 
 public class EventDaoImp implements EventDao {
 
-    private final String DB_URL = "jdbc:derby:DB;create=true";
+    public static final String DB_URL = "jdbc:derby:/home/lucas/School/DistJava/ItenProject/DB;create=true";
     private Connection connection = null;
     private List<Event> events = null;
 

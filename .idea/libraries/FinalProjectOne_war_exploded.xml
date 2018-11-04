@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FinalProjectOne_war_exploded">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../glassfish5/glassfish/domains/domain1/generated/jsp/FinalProjectOne_war_exploded" />
+    </SOURCES>
+  </library>
+</component>
