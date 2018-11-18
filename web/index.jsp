@@ -8,31 +8,37 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>Home</title>
-  </head>
-  <body>
-  <header>
-    <nav>
-            <ul>
-                <c:set var="isAdmin" scope="page" value='${sessionScope["user"].isAdmin()}' />
-                <c:if test="${isAdmin}">
-                    <li><a href="adminControlPanel.jsp">Admin control panel</a></li>
-                </c:if>
-                <li><a href="index.jsp">Home</a></li>
-                <li><a href="schedule.jsp">Schedule</a></li>
-            </ul>
+    <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+</head>
+<body>
+<header>
+    <nav class="menu">
+        <c:set var="isAdmin" scope="page" value='${sessionScope["user"].isAdmin()}'/>
+        <c:if test="${isAdmin}">
+            <a href="adminControlPanel.jsp">Admin control panel</a>
+        </c:if>
+        <a href="index.jsp">Home</a>
+        <a href="schedule.jsp">Schedule</a>
     </nav>
-  </header>
-  <main>
+</header>
+<main>
+    <h1 id="title">Sci Con<br>The Midwests 7th Largest Science Fiction Convention</h1>
+    <h3 id="news">Our Story</h3>
+    <p id="news">While bored one day Lucas (our founder) had an idea. "I'm bored, so<br>
+    why not have a convention." Lucas then set to finding the biggest summer house he could find<br>
+        Well, the search is over! The Johnsons move back to Florida in November, and what they don't know<br>
+        can't hurt them! So, come visit Sci Con, and [Lucas, put the catchphrase here].
+    </p>
     <form method="post" id="logIn" name="logIn" action="logIn.go">
-      <input type="text" id="username" name="username" placeholder="Username">
-      <input type="text" id="password" name="password" placeholder="Password">
-      <button type="submit">Log In</button>
+        <h4>Employee log in:</h4>
+        <input type="text" id="username" name="username" placeholder="Username">
+        <br/>
+        <input type="text" id="password" name="password" placeholder="Password">
+        <br/>
+        <button type="submit">Log In</button>
     </form>
-
-      <h3>Placeholder Text</h3>
-      <p>kaljshf lkajsdf hdfsjhf kjhasdflkjhf hsdfkjlhasdf <br> lkjhasdf hsdfh hd khsdfasd</p>
-  </main>
-  </body>
+</main>
+</body>
 </html>

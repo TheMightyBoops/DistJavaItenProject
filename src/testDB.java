@@ -7,8 +7,6 @@ public class testDB {
 
         event.setEventName("Fall down the Stairs");
         event.setDate("06/18/2018");
-        event.setStartTime("10 AM");
-        event.setEndTime("11 AM" );
         event.setEventDescription("This is the time when we fall down the stairs");
 
         EventDaoImp eventDB = new EventDaoImp();

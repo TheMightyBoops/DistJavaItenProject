@@ -4,6 +4,8 @@ import Models.Event;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class EventDaoImp implements EventDao {
@@ -34,8 +36,8 @@ public class EventDaoImp implements EventDao {
                 int id = resultSet.getInt("EventID");
                 String name = resultSet.getString("EventName");
                 String date = resultSet.getString("Date");
-                String startTime = resultSet.getString("StartTime");
-                String endTime = resultSet.getString("EndTime");
+                double startTime = resultSet.getDouble("StartTime");
+                double endTime = resultSet.getDouble("EndTime");
                 String description = resultSet.getString("Description");
 
                 Event event = new Event();
@@ -52,6 +54,12 @@ public class EventDaoImp implements EventDao {
             return null;
         }
 
+        events.sort(new Comparator<Event>() {
+            @Override
+            public int compare(Event o1, Event o2) {
+                return Double.compare(o1.getStartTime(), o2.getStartTime());
+            }
+        });
         return events;
     }
 
@@ -62,9 +70,9 @@ public class EventDaoImp implements EventDao {
 
             sql.execute("UPDATE EVENTS" +
                     "Set Date ='" + event.getDate() +
-                    "', StartTime='" + event.getStartTime() +
-                    "', EndTime='" + event.getEndTime() +
-                    "', Description='" + event.getEventDescription() +
+                    "', StartTime=" + event.getStartTime() +
+                    ", EndTime=" + event.getEndTime() +
+                    ", Description='" + event.getEventDescription() +
                     "', EventName='" + event.getEventName() +
                     "' WHERE EventId=" + event.getEventID()
             );
@@ -100,8 +108,8 @@ public class EventDaoImp implements EventDao {
                     "INSERT INTO EVENTS VALUES (DEFAULT, " +
                             "'" + event.getEventName() + "'," +
                             "'" + event.getDate() + "'," +
-                            "'" + event.getStartTime() + "'," +
-                            "'" + event.getEndTime() + "'," +
+                             + event.getStartTime() + "," +
+                             + event.getEndTime() + "," +
                             "'" + event.getEventDescription() + "')"
             );
             System.out.println("Event: " + event.getEventID() + "added to DB");

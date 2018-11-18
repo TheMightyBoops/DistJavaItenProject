@@ -3,6 +3,8 @@
 <%@ page import="DAO.EventDaoImp" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<link rel="stylesheet" type="text/css" href="Styles/styles.css">
 <%--
   Created by IntelliJ IDEA.
   User: lucas
@@ -14,52 +16,76 @@
 <html>
 <head>
     <title>Admin Controls</title>
+
 </head>
 <body>
 <header>
-        <nav>
+        <nav class="menu">
             <ul>
                 <c:set var="isAdmin" scope="page" value='${sessionScope["user"].isAdmin()}' />
                 <c:if test="${isAdmin}">
-                    <li><a href="adminControlPanel.jsp">Admin control panel</a></li>
+                    <a href="adminControlPanel.jsp">Admin control panel</a>
                 </c:if>
-                <li><a href="index.jsp">Home</a></li>
-                <li><a href="schedule.jsp">Schedule</a></li>
-            </ul>
+                <a href="index.jsp">Home</a>
+                <a href="schedule.jsp">Schedule</a>
+                    <h3 id="title">SciCon 2018 Mission Control</h3>
     </nav>
 </header>
 <main>
-    <h2>To add an event just fill in and submit this form </h2>
+
+    <h2 id="news">To add an event just fill in and submit this form </h2>
     <form method="post" id="addEvent" name="addEvent" action="addEvent.go">
         <input title="Event Name:" type="text" id="eventName" name="eventName">
         <input title="Date:" type="text" id="date" name="date" placeholder="mm/dd/yyyy">
-        <input title="Start Time:" type="text" id="startTime" name="startTime" placeholder="Ex:3 AM">
-        <input title="End Time:" type="text" id="endTime" name="endTime" placeholder="Ex:3 PM">
+        <input title="Start Time:" type="text" id="startTime" name="startTime" placeholder="Ex:3.45">
+        <input title="End Time:" type="text" id="endTime" name="endTime" placeholder="Ex:13.56">
+        <br/>
         <textarea title="Description:" name="eventDescription" id="eventDescription"></textarea>
+        <br/>
         <button type="submit">Add event</button>
     </form>
-    <h2>To remove an event just click the delete next to the desired event</h2>
+    <h2 id="news">To remove an event just click the delete next to the desired event</h2>
     <%
         EventDaoImp eventDB = new EventDaoImp();
         eventDB.getConnection();
         List<Event> events = eventDB.getAllEvents();
-
-        if(events != null) {
-            for(Event e: events) {
-                out.print("<dl>" +
-                        "<dt>" + e.getEventName() + "</dt>" +
-                        "<dd>" + e.getDate() + "</dt>" +
-                        "<dd>" + e.getStartTime() + "</dd>" +
-                        "<dd>" + e.getEndTime() + "</dd>" +
-                        "<dd>" + e.getEventDescription() + "</dd>" +
-                        "<dd><form method='post' action='deleteEvent.go'>" +
-                            "<button type='submit' name='delete' value='"+e.getEventID()+"'>Delete</button>" +
-                        "</form></dd></dl>"
-
-                );
-            }
-        }
+        pageContext.setAttribute("events", events);
+        //TODO finish this and then add last page
     %>
+    <c:forEach var="item" items="${events}">
+        <dl>
+            <dt><h3>${item.eventName}</h3></dt>
+            <dd>${item.date}</dd>
+            <dd><strong>Start Time:&nbsp;</strong><fmt:formatNumber value="${item.startTime}" type="number" pattern="##.##"
+                                                                    minFractionDigits="2" maxFractionDigits="2"/>
+                <c:set var="startTime" scope="page" value="${item.startTime}"/>
+                <c:if test="${startTime < 12}">
+                    &nbsp;AM
+                </c:if>
+                <c:if test="${startTime >= 12}">
+                    &nbsp;PM
+                </c:if>
+            </dd>
+            <dd><strong>End Time:&nbsp;</strong><fmt:formatNumber value="${item.endTime}" type="number"
+                                                                  pattern="##.##" minFractionDigits="2"/>
+                <c:set var="endTime" scope="page" value="${item.endTime}"/>
+                <c:if test="${endTime < 12}">
+                    &nbsp;AM
+                </c:if>
+                <c:if test="${endTime >= 12}">
+                    &nbsp;PM
+                </c:if>
+                <br/>
+            </dd>
+            <dd>${item.eventDescription}</dd>
+            <dd>
+            <dd>
+                <form method="post" action="deleteEvent.go">
+                    <button type="submit" name="delete" value="${item.eventID}">Delete</button>
+                </form>
+            </dd>
+        </dl>
+    </c:forEach>
 </main>
 </body>
 </html>

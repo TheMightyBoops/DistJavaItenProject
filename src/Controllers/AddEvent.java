@@ -27,8 +27,8 @@ public class AddEvent extends HttpServlet {
 
         event.setEventName(eventNames[0]);
         event.setDate(dates[0]);
-        event.setStartTime(startTimes[0]);
-        event.setEndTime(endTimes[0]);
+        event.setStartTime(Double.parseDouble(startTimes[0]));
+        event.setEndTime(Double.parseDouble(endTimes[0]));
         event.setEventDescription(eventDescs[0]);
 
         EventDaoImp eventDB = new EventDaoImp();

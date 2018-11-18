@@ -34,17 +34,17 @@
     </column>
     <column id="17" parent="13" name="STARTTIME">
       <Position>4</Position>
-      <DataType>CHAR(50)|1</DataType>
+      <DataType>DOUBLE(52)|8</DataType>
     </column>
     <column id="18" parent="13" name="ENDTIME">
       <Position>5</Position>
-      <DataType>CHAR(50)|1</DataType>
+      <DataType>DOUBLE(52)|8</DataType>
     </column>
     <column id="19" parent="13" name="DESCRIPTION">
       <Position>6</Position>
       <DataType>CHAR(200)|1</DataType>
     </column>
-    <key id="20" parent="13" name="SQL181103231809820">
+    <key id="20" parent="13" name="SQL181107192406160">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>EVENTID</ColNames>
       <Primary>1</Primary>

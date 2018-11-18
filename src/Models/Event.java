@@ -1,12 +1,14 @@
 package Models;
 
+import java.util.Comparator;
+
 public class Event {
     private int eventID;
 
     private String eventName;
     private String date;
-    private String startTime;
-    private String endTime;
+    private double startTime;
+    private double endTime;
     private String eventDescription;
 
     public int getEventID() {
@@ -33,19 +35,19 @@ public class Event {
         this.date = date;
     }
 
-    public String getStartTime() {
+    public double getStartTime() {
         return startTime;
     }
 
-    public void setStartTime(String startTime) {
+    public void setStartTime(double startTime) {
         this.startTime = startTime;
     }
 
-    public String getEndTime() {
+    public double getEndTime() {
         return endTime;
     }
 
-    public void setEndTime(String endTime) {
+    public void setEndTime(double endTime) {
         this.endTime = endTime;
     }
 

@@ -10,23 +10,21 @@
 <html>
 <head>
     <title>Log In</title>
-
+    <link rel="stylesheet" type="text/css" href="Styles/styles.css">
 </head>
 <body>
 <header>
-    <nav>
-        <ul>
-            <c:set var="isAdmin" scope="page" value='${sessionScope["user"].isAdmin()}' />
-            <c:if test="${isAdmin}">
-                <li><a href="adminControlPanel.jsp">Admin control panel</a></li>
-            </c:if>
-            <li><a href="index.jsp">Home</a></li>
-            <li><a href="schedule.jsp">Schedule</a></li>
-        </ul>
+    <nav class="menu">
+        <c:set var="isAdmin" scope="page" value='${sessionScope["user"].isAdmin()}'/>
+        <c:if test="${isAdmin}">
+            <a href="adminControlPanel.jsp">Admin control panel</a>
+        </c:if>
+        <a href="index.jsp">Home</a>
+        <a href="schedule.jsp">Schedule</a>
     </nav>
 </header>
 <main>
-    <h3>You now have administrative privileges.</h3>
+    <h3 id="title">You now have administrative privileges.</h3>
 </main>
 </body>
 </html>
