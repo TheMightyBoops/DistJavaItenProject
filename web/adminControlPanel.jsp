@@ -3,7 +3,7 @@
 <%@ page import="DAO.EventDaoImp" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <link rel="stylesheet" type="text/css" href="Styles/styles.css">
 <%--
   Created by IntelliJ IDEA.
@@ -20,15 +20,15 @@
 </head>
 <body>
 <header>
-        <nav class="menu">
-            <ul>
-                <c:set var="isAdmin" scope="page" value='${sessionScope["user"].isAdmin()}' />
-                <c:if test="${isAdmin}">
-                    <a href="adminControlPanel.jsp">Admin control panel</a>
-                </c:if>
-                <a href="index.jsp">Home</a>
-                <a href="schedule.jsp">Schedule</a>
-                    <h3 id="title">SciCon 2018 Mission Control</h3>
+    <nav class="menu">
+        <ul>
+            <c:set var="isAdmin" scope="page" value='${sessionScope["user"].isAdmin()}'/>
+            <c:if test="${isAdmin}">
+            <a href="adminControlPanel.jsp">Admin control panel</a>
+            </c:if>
+            <a href="index.jsp">Home</a>
+            <a href="schedule.jsp">Schedule</a>
+            <h3 id="title">SciCon 2018 Mission Control</h3>
     </nav>
 </header>
 <main>
@@ -44,7 +44,10 @@
         <br/>
         <button type="submit">Add event</button>
     </form>
-    <h2 id="news">To remove an event just click the delete next to the desired event</h2>
+    <h2 id="news">To remove an event just click the delete under to the desired event<br>
+    To edit it, change the desired form and click update.<br>
+        NOTE: Event order will switch automatically in this list if you change event times.
+    </h2>
     <%
         EventDaoImp eventDB = new EventDaoImp();
         eventDB.getConnection();
@@ -53,38 +56,21 @@
         //TODO finish this and then add last page
     %>
     <c:forEach var="item" items="${events}">
-        <dl>
-            <dt><h3>${item.eventName}</h3></dt>
-            <dd>${item.date}</dd>
-            <dd><strong>Start Time:&nbsp;</strong><fmt:formatNumber value="${item.startTime}" type="number" pattern="##.##"
-                                                                    minFractionDigits="2" maxFractionDigits="2"/>
-                <c:set var="startTime" scope="page" value="${item.startTime}"/>
-                <c:if test="${startTime < 12}">
-                    &nbsp;AM
-                </c:if>
-                <c:if test="${startTime >= 12}">
-                    &nbsp;PM
-                </c:if>
-            </dd>
-            <dd><strong>End Time:&nbsp;</strong><fmt:formatNumber value="${item.endTime}" type="number"
-                                                                  pattern="##.##" minFractionDigits="2"/>
-                <c:set var="endTime" scope="page" value="${item.endTime}"/>
-                <c:if test="${endTime < 12}">
-                    &nbsp;AM
-                </c:if>
-                <c:if test="${endTime >= 12}">
-                    &nbsp;PM
-                </c:if>
-                <br/>
-            </dd>
-            <dd>${item.eventDescription}</dd>
-            <dd>
-            <dd>
-                <form method="post" action="deleteEvent.go">
-                    <button type="submit" name="delete" value="${item.eventID}">Delete</button>
-                </form>
-            </dd>
-        </dl>
+        <form method="post" action="editEvent.go">
+            <input title="Event Name:" type="text" id="eventName2" name="eventName2" value="${item.eventName}">
+            <input title="Date:" type="text" id="date2" name="date2" value="${item.date}">
+            <input title="Start Time:" type="text" id="startTime2" name="startTime2" value="${item.startTime}">
+            <input title="End Time:" type="text" id="endTime2" name="endTime2" value="${item.endTime}">
+            <br/>
+            <textarea title="Description:" name="eventDescription2"
+                      id="eventDescription2">${item.eventDescription}</textarea>
+            <br/>
+            <button type="submit" name="edit" value="${item.eventID}">Update</button>
+        </form>
+        <form method="post" action="deleteEvent.go">
+            <button type="submit" name="delete" value="${item.eventID}">Delete</button>
+        </form>
+
     </c:forEach>
 </main>
 </body>

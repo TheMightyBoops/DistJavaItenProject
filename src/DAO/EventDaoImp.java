@@ -69,7 +69,7 @@ public class EventDaoImp implements EventDao {
             Statement sql = connection.createStatement();
 
             sql.execute("UPDATE EVENTS" +
-                    "Set Date ='" + event.getDate() +
+                    " Set Date ='" + event.getDate() +
                     "', StartTime=" + event.getStartTime() +
                     ", EndTime=" + event.getEndTime() +
                     ", Description='" + event.getEventDescription() +

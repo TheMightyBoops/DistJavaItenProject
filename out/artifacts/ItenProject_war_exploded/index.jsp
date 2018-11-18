@@ -28,7 +28,7 @@
     <h3 id="news">Our Story</h3>
     <p id="news">While bored one day Lucas (our founder) had an idea. "I'm bored, so<br>
     why not have a convention." Lucas then set to finding the biggest summer house he could find<br>
-        Well, the search is over! The Johnsons move back to Florida November, and what they don't know<br>
+        Well, the search is over! The Johnsons move back to Florida in November, and what they don't know<br>
         can't hurt them! So, come visit Sci Con, and [Lucas, put the catchphrase here].
     </p>
     <form method="post" id="logIn" name="logIn" action="logIn.go">

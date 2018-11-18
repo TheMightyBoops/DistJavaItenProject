@@ -28,4 +28,12 @@
         <servlet-name>DeleteEvent</servlet-name>
         <url-pattern>/deleteEvent.go</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>EditEvent</servlet-name>
+        <servlet-class>Controllers.EditEvent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditEvent</servlet-name>
+        <url-pattern>/editEvent.go</url-pattern>
+    </servlet-mapping>
 </web-app>

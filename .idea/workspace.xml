@@ -7,62 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55d971d-b5ab-4775-93f2-6335dc8be868" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/Styles/styles.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/background.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/slideBar.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/slideDiamond.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/slideDrawing.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/slidePyramid.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/slideStar.jpeg" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d61501ee-75ec-496b-92e1-aa76de3e2571.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/d61501ee-75ec-496b-92e1-aa76de3e2571.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controllers/EditEvent.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/DB/db.lck" afterPath="$PROJECT_DIR$/DB/db.lck" />
-      <change beforePath="$PROJECT_DIR$/DB/dbCreateScripts" afterPath="$PROJECT_DIR$/DB/dbCreateScripts" />
       <change beforePath="$PROJECT_DIR$/DB/log/log.ctrl" afterPath="$PROJECT_DIR$/DB/log/log.ctrl" />
       <change beforePath="$PROJECT_DIR$/DB/log/log1.dat" afterPath="$PROJECT_DIR$/DB/log/log1.dat" />
       <change beforePath="$PROJECT_DIR$/DB/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/DB/log/logmirror.ctrl" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c101.dat" afterPath="$PROJECT_DIR$/DB/seg0/c101.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c111.dat" afterPath="$PROJECT_DIR$/DB/seg0/c111.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c121.dat" afterPath="$PROJECT_DIR$/DB/seg0/c121.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c130.dat" afterPath="$PROJECT_DIR$/DB/seg0/c130.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c141.dat" afterPath="$PROJECT_DIR$/DB/seg0/c141.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c20.dat" afterPath="$PROJECT_DIR$/DB/seg0/c20.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c31.dat" afterPath="$PROJECT_DIR$/DB/seg0/c31.dat" />
       <change beforePath="$PROJECT_DIR$/DB/seg0/c400.dat" afterPath="$PROJECT_DIR$/DB/seg0/c400.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c41.dat" afterPath="$PROJECT_DIR$/DB/seg0/c41.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c411.dat" afterPath="$PROJECT_DIR$/DB/seg0/c411.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c421.dat" afterPath="$PROJECT_DIR$/DB/seg0/c421.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c4b0.dat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c4c1.dat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c51.dat" afterPath="$PROJECT_DIR$/DB/seg0/c51.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c60.dat" afterPath="$PROJECT_DIR$/DB/seg0/c60.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c71.dat" afterPath="$PROJECT_DIR$/DB/seg0/c71.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c81.dat" afterPath="$PROJECT_DIR$/DB/seg0/c81.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/c90.dat" afterPath="$PROJECT_DIR$/DB/seg0/c90.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/ca1.dat" afterPath="$PROJECT_DIR$/DB/seg0/ca1.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/cb1.dat" afterPath="$PROJECT_DIR$/DB/seg0/cb1.dat" />
-      <change beforePath="$PROJECT_DIR$/DB/seg0/cf0.dat" afterPath="$PROJECT_DIR$/DB/seg0/cf0.dat" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/WEB-INF/classes/Controllers/AddEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/WEB-INF/classes/Controllers/AddEvent.class" />
+      <change beforePath="$PROJECT_DIR$/DB/seg0/c490.dat" afterPath="$PROJECT_DIR$/DB/seg0/c490.dat" />
+      <change beforePath="$PROJECT_DIR$/DB/seg0/c4a1.dat" afterPath="$PROJECT_DIR$/DB/seg0/c4a1.dat" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/WEB-INF/classes/DAO/EventDaoImp.class" afterPath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/WEB-INF/classes/DAO/EventDaoImp.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/WEB-INF/classes/Models/Event.class" afterPath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/WEB-INF/classes/Models/Event.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/WEB-INF/classes/testDB.class" afterPath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/WEB-INF/classes/testDB.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/WEB-INF/web.xml" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/adminControlPanel.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/adminControlPanel.jsp" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/logIn.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/logIn.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/schedule.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ItenProject_war_exploded/schedule.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/production/ItenProject/Controllers/AddEvent.class" afterPath="$PROJECT_DIR$/out/production/ItenProject/Controllers/AddEvent.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ItenProject/DAO/EventDaoImp.class" afterPath="$PROJECT_DIR$/out/production/ItenProject/DAO/EventDaoImp.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ItenProject/Models/Event.class" afterPath="$PROJECT_DIR$/out/production/ItenProject/Models/Event.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ItenProject/testDB.class" afterPath="$PROJECT_DIR$/out/production/ItenProject/testDB.class" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/AddEvent.java" afterPath="$PROJECT_DIR$/src/Controllers/AddEvent.java" />
       <change beforePath="$PROJECT_DIR$/src/DAO/EventDaoImp.java" afterPath="$PROJECT_DIR$/src/DAO/EventDaoImp.java" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Event.java" afterPath="$PROJECT_DIR$/src/Models/Event.java" />
-      <change beforePath="$PROJECT_DIR$/src/testDB.java" afterPath="$PROJECT_DIR$/src/testDB.java" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change beforePath="$PROJECT_DIR$/web/adminControlPanel.jsp" afterPath="$PROJECT_DIR$/web/adminControlPanel.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/logIn.jsp" afterPath="$PROJECT_DIR$/web/logIn.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/schedule.jsp" afterPath="$PROJECT_DIR$/web/schedule.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,58 +51,96 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="adminControlPanel.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/adminControlPanel.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/schedule.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="39" column="50" lean-forward="false" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logIn.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/logIn.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="30" column="71" lean-forward="false" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Styles/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="101" column="30" lean-forward="false" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="EditEvent.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Controllers/EditEvent.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="458">
+                  <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <marker date="1542565874085" expanded="true" signature="1601:1686" ph="SELECT * FRO... EVENTS" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="EventDaoImp.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/DAO/EventDaoImp.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="228">
+                  <caret line="71" column="22" lean-forward="false" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+                  <folding>
+                    <marker date="1542566603552" expanded="true" signature="960:980" ph="SELECT * FRO... EVENTS" />
+                    <marker date="1542566603552" expanded="true" signature="2248:2261" ph="UPDATE EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="2248:2298" ph="UPDATE EVENTSSet... " />
+                    <marker date="1542566603552" expanded="true" signature="2248:2343" ph="UPDATE EVENTSSet... " />
+                    <marker date="1542566603552" expanded="true" signature="2248:2354" ph="UPDATE EVENTSSet... " />
+                    <marker date="1542566603552" expanded="true" signature="2248:2380" ph="UPDATE EVENTSSet... " />
+                    <marker date="1542566603552" expanded="true" signature="2248:2402" ph="UPDATE EVENTSSet... " />
+                    <marker date="1542566603552" expanded="true" signature="2248:2412" ph="UPDATE EVENTSSet... " />
+                    <marker date="1542566603552" expanded="true" signature="2248:2473" ph="UPDATE EVENTSSet... " />
+                    <marker date="1542566603552" expanded="true" signature="2248:2542" ph="UPDATE EVENTSSet... " />
+                    <marker date="1542566603552" expanded="true" signature="2248:2606" ph="UPDATE EVENTSSet... " />
+                    <marker date="1542566603552" expanded="true" signature="3037:3071" ph="DELETE FROM EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3037:3072" ph="DELETE FROM EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3559:3595" ph="INSERT INTO EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3559:3693" ph="INSERT INTO EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3559:3718" ph="INSERT INTO EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3559:3750" ph="INSERT INTO EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3559:3773" ph="INSERT INTO EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3559:3810" ph="INSERT INTO EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3559:3833" ph="INSERT INTO EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3559:3836" ph="INSERT INTO EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3559:3870" ph="INSERT INTO EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3559:3906" ph="INSERT INTO EVENTS... " />
+                    <marker date="1542566603552" expanded="true" signature="3559:3907" ph="INSERT INTO EVENTS... " />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="adminControlPanel.jsp" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web/adminControlPanel.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DeleteEvent.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Controllers/DeleteEvent.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="224">
+                  <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+                  <folding>
+                    <marker date="1541373953228" expanded="true" signature="1053:1138" ph="SELECT * FRO... EVENTS" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddEvent.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Controllers/AddEvent.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -169,20 +168,21 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d61501ee-75ec-496b-92e1-aa76de3e2571/console.sql" />
         <option value="$PROJECT_DIR$/src/Models/User.java" />
         <option value="$PROJECT_DIR$/src/Controllers/LogInAdmin.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d61501ee-75ec-496b-92e1-aa76de3e2571/console_1.sql" />
         <option value="$PROJECT_DIR$/src/Controllers/DeleteEvent.java" />
         <option value="$PROJECT_DIR$/DB/dbCreateScripts" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d61501ee-75ec-496b-92e1-aa76de3e2571/console_2.sql" />
         <option value="$PROJECT_DIR$/src/Controllers/AddEvent.java" />
         <option value="$PROJECT_DIR$/src/Models/Event.java" />
-        <option value="$PROJECT_DIR$/src/DAO/EventDaoImp.java" />
         <option value="$PROJECT_DIR$/src/testDB.java" />
-        <option value="$PROJECT_DIR$/web/adminControlPanel.jsp" />
         <option value="$PROJECT_DIR$/web/logIn.jsp" />
         <option value="$PROJECT_DIR$/web/Styles/styles.css" />
         <option value="$PROJECT_DIR$/web/schedule.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/Controllers/EditEvent.java" />
+        <option value="$PROJECT_DIR$/src/DAO/EventDaoImp.java" />
+        <option value="$PROJECT_DIR$/web/adminControlPanel.jsp" />
       </list>
     </option>
   </component>
@@ -228,23 +228,6 @@
             <path>
               <item name="ItenProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ItenProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ItenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ItenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ItenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ItenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ItenProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ItenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="Styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -478,12 +461,12 @@
       <workItem from="1541282500949" duration="5488000" />
       <workItem from="1541362653690" duration="11494000" />
       <workItem from="1541618213601" duration="3788000" />
-      <workItem from="1542558182325" duration="6018000" />
+      <workItem from="1542558182325" duration="8656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26788000" />
+    <option name="totallyTimeSpent" value="29426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
@@ -576,8 +559,14 @@
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controllers/EditEvent.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -638,7 +627,6 @@
         <state relative-caret-position="570">
           <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
           <folding>
-            <element signature="imports" expanded="false" />
             <marker date="1541373953228" expanded="true" signature="1053:1138" ph="SELECT * FRO... EVENTS" />
           </folding>
         </state>
@@ -657,31 +645,30 @@
         <state relative-caret-position="750">
           <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1541619490527" expanded="true" signature="960:980" ph="SELECT * FRO... EVENTS" />
-            <marker date="1541619490527" expanded="true" signature="2248:2261" ph="UPDATE EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2297" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2342" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2353" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2379" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2401" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2411" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2472" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2541" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2605" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="3036:3070" ph="DELETE FROM EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3036:3071" ph="DELETE FROM EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3594" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3692" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3717" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3749" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3772" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3809" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3832" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3835" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3869" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3905" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3906" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="960:980" ph="SELECT * FRO... EVENTS" />
+            <marker date="1542566603552" expanded="true" signature="2248:2261" ph="UPDATE EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2298" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2343" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2354" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2380" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2402" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2412" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2473" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2542" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2606" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="3037:3071" ph="DELETE FROM EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3037:3072" ph="DELETE FROM EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3595" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3693" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3718" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3750" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3773" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3810" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3833" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3836" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3870" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3906" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3907" ph="INSERT INTO EVENTS... " />
           </folding>
         </state>
       </provider>
@@ -740,7 +727,6 @@
         <state relative-caret-position="570">
           <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
           <folding>
-            <element signature="imports" expanded="false" />
             <marker date="1541373953228" expanded="true" signature="1053:1138" ph="SELECT * FRO... EVENTS" />
           </folding>
         </state>
@@ -864,31 +850,30 @@
         <state relative-caret-position="1155">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1541619490527" expanded="true" signature="960:980" ph="SELECT * FRO... EVENTS" />
-            <marker date="1541619490527" expanded="true" signature="2248:2261" ph="UPDATE EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2297" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2342" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2353" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2379" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2401" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2411" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2472" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2541" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2605" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="3036:3070" ph="DELETE FROM EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3036:3071" ph="DELETE FROM EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3594" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3692" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3717" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3749" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3772" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3809" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3832" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3835" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3869" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3905" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3906" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="960:980" ph="SELECT * FRO... EVENTS" />
+            <marker date="1542566603552" expanded="true" signature="2248:2261" ph="UPDATE EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2298" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2343" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2354" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2380" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2402" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2412" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2473" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2542" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2606" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="3037:3071" ph="DELETE FROM EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3037:3072" ph="DELETE FROM EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3595" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3693" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3718" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3750" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3773" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3810" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3833" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3836" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3870" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3906" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3907" ph="INSERT INTO EVENTS... " />
           </folding>
         </state>
       </provider>
@@ -921,14 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5310">
@@ -958,55 +935,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/AddEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DAO/EventDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/EventDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1541619490527" expanded="true" signature="960:980" ph="SELECT * FRO... EVENTS" />
-            <marker date="1541619490527" expanded="true" signature="2248:2261" ph="UPDATE EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2297" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2342" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2353" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2379" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2401" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2411" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2472" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2541" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="2248:2605" ph="UPDATE EVENTSSet... " />
-            <marker date="1541619490527" expanded="true" signature="3036:3070" ph="DELETE FROM EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3036:3071" ph="DELETE FROM EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3594" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3692" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3717" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3749" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3772" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3809" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3832" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3835" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3869" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3905" ph="INSERT INTO EVENTS... " />
-            <marker date="1541619490527" expanded="true" signature="3558:3906" ph="INSERT INTO EVENTS... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,17 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/DeleteEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1541373953228" expanded="true" signature="1053:1138" ph="SELECT * FRO... EVENTS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -1080,18 +1002,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/adminControlPanel.jsp">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="450">
+          <caret line="30" column="71" lean-forward="false" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/schedule.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="585">
           <caret line="39" column="50" lean-forward="false" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="50" lean-forward="false" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1104,10 +1034,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/Controllers/DeleteEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="71" lean-forward="false" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        <state relative-caret-position="224">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <marker date="1541373953228" expanded="true" signature="1053:1138" ph="SELECT * FRO... EVENTS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/AddEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/EditEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1542565874085" expanded="true" signature="1601:1686" ph="SELECT * FRO... EVENTS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/EventDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="71" column="22" lean-forward="false" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+          <folding>
+            <marker date="1542566603552" expanded="true" signature="960:980" ph="SELECT * FRO... EVENTS" />
+            <marker date="1542566603552" expanded="true" signature="2248:2261" ph="UPDATE EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2298" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2343" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2354" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2380" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2402" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2412" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2473" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2542" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="2248:2606" ph="UPDATE EVENTSSet... " />
+            <marker date="1542566603552" expanded="true" signature="3037:3071" ph="DELETE FROM EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3037:3072" ph="DELETE FROM EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3595" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3693" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3718" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3750" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3773" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3810" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3833" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3836" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3870" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3906" ph="INSERT INTO EVENTS... " />
+            <marker date="1542566603552" expanded="true" signature="3559:3907" ph="INSERT INTO EVENTS... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminControlPanel.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
           <folding />
         </state>
       </provider>
